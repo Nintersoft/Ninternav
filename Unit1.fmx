@@ -1,0 +1,117 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 551
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnResize = FormResize
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 576
+  DesignerDeviceName = '3.4 WQVGA Android Phone'
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Header1: THeader
+    Sides = [Top, Left, Bottom, Right]
+    Anchors = [akLeft, akTop, akRight]
+    Height = 49.000000000000000000
+    TabOrder = 0
+    Width = 321.000000000000000000
+  end
+  object FramedScrollBox1: TFramedScrollBox
+    Touch.GestureManager = GestureManager1
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Height = 433.000000000000000000
+    Position.Y = 48.000000000000000000
+    TabOrder = 1
+    Width = 321.000000000000000000
+  end
+  object Label1: TLabel
+    Anchors = [akLeft, akRight, akBottom]
+    StyledSettings = [FontColor]
+    Height = 33.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 496.000000000000000000
+    TextSettings.Font.Family = 'Segoe UI Symbol'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'Orgulho de ser Ninter'
+    Width = 305.000000000000000000
+  end
+  object SpeedButton1: TSpeedButton
+    Anchors = [akBottom]
+    Height = 48.000000000000000000
+    Position.X = 136.000000000000000000
+    Position.Y = 512.000000000000000000
+    StyleLookup = 'arrowuptoolbutton'
+    Text = 'SpeedButton1'
+    Width = 48.000000000000000000
+    OnClick = SpeedButton1Click
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 5
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Width = 265.000000000000000000
+    Height = 32.000000000000000000
+    OnKeyDown = Edit1KeyDown
+  end
+  object SpeedButton2: TSpeedButton
+    Anchors = [akTop, akRight]
+    Height = 48.000000000000000000
+    Position.X = 272.000000000000000000
+    StyleLookup = 'nexttoolbutton'
+    Text = 'SpeedButton2'
+    Width = 48.000000000000000000
+    OnClick = SpeedButton2Click
+  end
+  object Button1: TButton
+    Anchors = [akBottom]
+    StyledSettings = [FontColor]
+    Height = 49.000000000000000000
+    Position.X = -8.000000000000000000
+    Position.Y = 560.000000000000000000
+    TabOrder = 9
+    Text = 'Configura'#231#245'es'
+    TextSettings.Font.Family = 'Segoe UI Semibold'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    Width = 329.000000000000000000
+    OnClick = Button1Click
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 32
+    OnTimer = Timer1Timer
+    Left = 8
+    Top = 504
+  end
+  object GestureManager1: TGestureManager
+    Left = 144
+    Top = 168
+    GestureData = <
+      item
+        Control = FramedScrollBox1
+        Collection = <
+          item
+            Action = Action1
+            GestureID = sgiLeftRight
+          end>
+      end>
+  end
+  object ActionList1: TActionList
+    Left = 184
+    Top = 240
+    object Action1: TAction
+      Text = 'Browser'
+      OnExecute = Action1Execute
+    end
+  end
+end
