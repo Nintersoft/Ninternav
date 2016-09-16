@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Ninternav</string>
+    <string name="action_newtab">New tab</string>
     <string name="action_settings">Settings</string>
+    <string name="action_selectTab">Tabs</string>
+
+    <string name="url_newtab">ninternav:nova_aba</string>
+
 </resources>
