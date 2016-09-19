@@ -12,4 +12,14 @@
         android:orderInCategory="100"
         android:title="@string/action_newtab"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tabs"
+        android:orderInCategory="100"
+        android:title="@string/action_selectTab"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
 </menu>
