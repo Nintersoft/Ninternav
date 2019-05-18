@@ -2,7 +2,7 @@
 
 Ninternav é um antigo navegador móvel privado desenvolvido pela equipe Nintersoft.
 
-Código aberto Ninternav
+Código aberto Ninternav:
 
 - Você poderá baixar e fazer suas modificações à vontade, conforme a licença de código aberto Nintersoft.
 - A licença está disponível na raiz da pasta do projeto.
@@ -34,7 +34,7 @@ Equipe de desenvolvimento Nintersoft.
 
 Ninternav is a former Nintersoft's private mobile browser.
 
-Ninternav open source code
+Ninternav open source code:
 
 - You can download and make some modifications in the source code as in the discontinued version (for C++ builder - "descontinuado" in portuguese) as in the current version (Qt project), according to our Open Source Policy (by Nintersoft).
 - The licence is available in the root of the project folder.
