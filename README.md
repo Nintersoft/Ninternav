@@ -32,7 +32,7 @@ Equipe de desenvolvimento Nintersoft.
 
 # [ LEGACY/ARCHIVED ] Ninternav
 
-Ninternav is the Nintersoft's former private mobile browser.
+Ninternav is a former Nintersoft's private mobile browser.
 
 Ninternav open source code
 
